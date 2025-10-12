@@ -52,7 +52,7 @@ nb.fit(X_train, y_train)
 
 y_pred = nb.predict(X_test)
 print("\n==============================")
-print("  HASIL EVALUASI MODEL NAIVE BAYES")
+print("  MODEL NAIVE BAYES PREDIKSI LOYALITAS ")
 print("==============================")
 print("Akurasi Model:", round(accuracy_score(y_test, y_pred)*100, 2), "%")
 print("\nLaporan Klasifikasi:\n", classification_report(y_test, y_pred))
