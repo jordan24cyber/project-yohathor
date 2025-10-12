@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Membaca file CSV
-data = pd.read_csv("D:\File Kuliah\Semester 7\Machine Learning\cards_data.csv")
+data = pd.read_csv("D:\Kuliah\Semester 5\Machine Learning\proyekanalisis\cards_data.csv")
 
 # Menampilkan semua kolom
 pd.set_option('display.max_columns', None)
