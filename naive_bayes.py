@@ -76,7 +76,7 @@ df['loyal'].value_counts().plot(
     startangle=90,
     explode=(0.05, 0.05)
 )
-plt.title('Persentase Pelanggan Loyal vs Tidak Loyal', fontsize=14)
+plt.title('Persentase Pelanggan Loyal dan Tidak Loyal', fontsize=14)
 plt.ylabel('')
 plt.show()
 
