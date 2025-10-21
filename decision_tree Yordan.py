@@ -269,7 +269,7 @@ def train_and_evaluate_models(csv_file):
 
     except FileNotFoundError:
         print(f"ERROR: File dataset '{csv_file}' tidak ditemukan.")
-        print("Pastikan path file sudah benar.")
+        print("Pastikan path file sudah benar")
         return None, None, None, None
     except Exception as e:
         print(f"Terjadi error saat melatih model: {e}")
