@@ -7,6 +7,8 @@ import matplotlib.pyplot as plt
 import warnings
 warnings.filterwarnings('ignore')
 
+# Membaca file CSV
+data = pd.read_csv("D:\Kuliah\Semester 5\Machine Learning\proyekanalisis\cards_data.csv")
 file_path = r"C:\Users\LENOVO\Downloads\archive (4)\users_data.csv"
 
 df = pd.read_csv(file_path)
